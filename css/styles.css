@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.alym{
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-photo{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 300px;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d81717;
+    padding: 10px 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.container p {
+    color: #f4ecec;
+    font-size: 2rem;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d31f1f;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  
+  .close-modal {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .big {
+    font-size: 100 px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; } 
+  .Img_WH100 { 
+    width: 100%; 
+    height: 100%; 
+} 
+.body { 
+    font-size: 100%; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    color: rgb( 255 , 255 , 255 ); 
+    margin: 0em; 
+    padding: 0em; 
+    width: 100%; 
+    height: 100vh; 
+    background: linear-gradient( 0deg, rgb( 50, 50, 50 ), rgb( 100, 100, 100 ), rgb( 50, 50, 50 ) ); 
+    background-attachment: fixed; 
+} 
+main { 
+    position: relative; 
+    margin: 0.5em auto; 
+    width: 76.5em; 
+    height: 45em; 
+    text-align: center; 
+}
+.gallery_img {
+	position: absolute;
+	width: 15em;
+	height: 22.5em;
+	overflow: hidden;
+	transition: transform 600ms ease, width 600ms ease, height 600ms ease;
+}
+.gallery_img:not([data-pos="0"]):hover { 
+    cursor: pointer; 
+}
+.gallery_img[data-pos="0"] {
+	width: 30em;
+	height: 100%;
+	padding-top: 0.5em;
+	z-index: 2;
+}
+
+.gallery_img[data-pos="0"] { 
+    transform: translate(0,0); 
+}
+.gallery_img[data-pos="1"] { 
+    transform: translate(30.5em,0); 
+}
+.gallery_img[data-pos="2"] { 
+    transform: translate(46em,0); 
+}
+.gallery_img[data-pos="3"] { 
+   transform: translate(61.5em,0); 
+}
+.gallery_img[data-pos="4"] { 
+    transform: translate(30.5em,23em); 
+}
+.gallery_img[data-pos="5"] { 
+    transform: translate(46em,23em); }
+.gallery_img[data-pos="6"] { 
+    transform: translate(61.5em,23em); 
+    }
+	@media (max-width: 560px) {
+main { 
+    width: 31em; 
+    height: 30em; 
+}
+.gallery_img { 
+    width: 10em; 
+    height: 15em; 
+}
+.gallery_img[data-pos="0"] { 
+    width: 20em; 
+    transform: translate(5.5em,0); 
+}
+.gallery_img[data-pos="1"] { 
+    transform: translate(0,30.5em); 
+}
+.gallery_img[data-pos="2"] { 
+    transform: translate(10.5em,30.5em); 
+}
+.gallery_img[data-pos="3"] { 
+    transform: translate(21em,30.5em); 
+}
+.gallery_img[data-pos="4"] { 
+    transform: translate(0,46em); 
+}
+.gallery_img[data-pos="5"] { 
+    transform: translate(10.5em,46em); 
+}
+.gallery_img[data-pos="6"] { 
+    transform: translate(21em,46em); 
+}		
+}
+@media (min-width: 561px) and (max-width: 860px ) {
+
+main { 
+    width: 41em; 
+    height: 30em; 
+}
+.gallery_img { 
+    width: 10em; 
+    height: 15em; 
+}
+.gallery_img[data-pos="0"] { 
+    width: 20em; 
+    transform: translate(0,0); 
+}
+.gallery_img[data-pos="1"] { 
+    transform: translate(20.5em,0); 
+}
+.gallery_img[data-pos="2"] { 
+    transform: translate(31em,0); 
+}
+.gallery_img[data-pos="3"] { 
+    transform: translate(20.5em,15.5em); 
+}
+.gallery_img[data-pos="4"] { 
+    transform: translate(31em,15.5em); 
+}
+.gallery_img[data-pos="5"] { 
+    transform: translate(0,30.5em); 
+}
+.gallery_img[data-pos="6"] { 
+    transform: translate(10.5em,30.5em); 
+}
+}
+
+@media (min-width: 861px ) and ( max-width: 1240px ) {
+main { 
+    width: 61em; 
+}
+.gallery_img[data-pos="3"] { 
+    transform: translate(0,45.5em); 
+}
+.gallery_img[data-pos="6"] { 
+    transform: translate(15.5em,45.5em); 
+}
+}
+@media ( max-width : 480px ) {
+        body {  font-size: 81.25%;  
+        }
+    }
+@media ( min-width : 481px ) and ( max-width : 768px ) {body {  
+        font-size: 81.25%;  
+    }
+}
+@media ( min-width : 769px ) and ( max-width : 1024px ) {
+    body {  
+        font-size: 87.5%;  
+    }
+}
+@media ( min-width : 1025px ) and ( max-width : 1200px ) {
+body {  
+    font-size: 100%;  
+}
+}
+@media ( min-width : 1201px ) and ( max-width : 1400px ) {
+body {  
+    font-size: 100%;  
+}
+}
+@media ( min-width : 1401px ) {
+    body {  
+        font-size: 125%;  
+    }     
+}
