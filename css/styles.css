@@ -18,12 +18,31 @@ body {
 img{
     width: 300px;
 }
-
+#bigg{
+    font-size: 60px;
+}
 header {
     background-color: #333;
     padding: 10px 0;
 }
-
+.al{
+    display: flex;
+    justify-content: center;
+}
+.big{
+    font-size: 60px;
+}
+.spann{
+    display: flex;
+    justify-content: center;
+}
+.pp{
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: #333;
+}
 nav ul {
     list-style: none;
     margin: 0;
@@ -33,6 +52,7 @@ nav ul {
 
 nav ul li {
     display: inline;
+    margin-top: 23000;
 }
 
 nav ul li a {
