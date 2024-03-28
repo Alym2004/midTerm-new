@@ -1,5 +1,3 @@
-README
-
 Files
 
 index.html: This is the main landing page of the portfolio website. It contains basic information about the owner and links to other sections of the website such as About, Resume, Works, Gallery, and Contact.
